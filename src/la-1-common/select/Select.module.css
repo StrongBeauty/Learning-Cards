@@ -1,0 +1,48 @@
+.selectWrap {
+    display: inline-block;
+    position: relative;
+}
+
+.select {
+    display: inline-block;
+    font-family: Lato, sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1.5;
+    margin-right: 0.4rem;
+    border: 1px solid rgba(99, 93, 128, .4);
+    cursor: pointer;
+    appearance: none;
+    width: 2.6rem;
+    padding-left: .2rem;
+    position: relative;
+    outline: none;
+}
+
+.select:hover,
+.select:active,
+.select:focus {
+    box-shadow: 0 0 10px #19077e;
+}
+
+.selectWrap::before,
+.selectWrap::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 7.5px;
+    height: .3rem;
+    width: 1px;
+    background-color: #5B6C71;
+    z-index: 2;
+}
+
+.selectWrap::before {
+    left: 26px;
+    transform: rotate(-45deg);
+}
+
+.selectWrap::after {
+    left: 29px;
+    transform: rotate(45deg);
+}

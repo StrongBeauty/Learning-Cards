@@ -1,0 +1,47 @@
+.tableHead {
+    background-color: #87CEEB;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.tabLeine {
+    transition: all .5s;
+    width: 100%;
+}
+
+.tabLeine:hover {
+    background-color: rgba(33, 38, 143, .3)
+}
+
+.tableItem {
+    font-family: 'SFUIDisplayBold', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    word-wrap: break-word;   /* for adaptive*/
+}
+
+.tableItem:nth-child(1) {
+    min-width: 26%;
+  }
+
+.tableItem:nth-child(2) {
+    min-width: 26%;
+   }
+
+.tableItem:nth-child(3) {
+    width: 18%;
+      padding: 0;
+}
+
+.tableItem:nth-child(4) {
+    width: 14%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.tableItem:nth-child(5) {
+    width: 16%;
+   }

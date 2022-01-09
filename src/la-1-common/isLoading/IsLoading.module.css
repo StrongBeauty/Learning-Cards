@@ -1,0 +1,44 @@
+.modalInner {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.modalInner::after {
+    position: fixed;
+    content: "";
+    display: block;
+    background-color: rgba(47, 53, 59, .5);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+
+.isLoadingBlock {
+       height: 10rem;
+    width: 10rem;
+    border-radius: 50%;
+    border-top: 10px solid rgb(255, 255, 255);
+    animation: is-loading .5s linear infinite;
+    position: absolute;
+    left: 44%;
+    bottom: 50%;
+    z-index: 3;
+}
+
+
+@keyframes is-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

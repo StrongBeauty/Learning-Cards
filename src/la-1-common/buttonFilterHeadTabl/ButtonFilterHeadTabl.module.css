@@ -1,0 +1,49 @@
+.buttonHead {
+    font-family: inherit;
+    position: relative;
+    display: block;
+    text-align: start;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    border: none;
+    background-color: transparent;
+}
+
+.buttonHead:hover {
+    box-shadow: 0 0 10px #19077e;
+}
+
+.buttonHead:active,
+.buttonHead:focus {
+    box-shadow: 0 0 19px 4px #19077e;
+}
+
+.buttonArrow {
+    display: inline-block;
+    border: .3rem solid;
+    border-color: #000 transparent transparent;
+    margin-left: 0.5rem;
+    transform: translateY(3px);
+
+}
+
+
+/*!for layout*/
+/* .buttonHead:hover .buttonArrow, */
+.buttonHead:active .buttonArrow,
+.buttonHead:focus .buttonArrow {
+    border-color: transparent transparent #000;
+    margin-left: 0.5rem;
+    transform: translateY(-2px);
+}
+
+
+/* ! to filter in ascending order TSX*/
+.buttonHead.active .buttonArrow {
+    border-color: transparent transparent #000;
+    position: absolute;
+    top: 37%;
+    right: 10%;
+}

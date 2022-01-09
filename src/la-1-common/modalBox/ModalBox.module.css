@@ -1,0 +1,40 @@
+.wrap {
+    display: grid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.modalContent {
+    position: fixed;
+    width: 25rem;
+    min-height: 15rem;
+    justify-self: center;
+    align-self: center;
+    /* right: calc(50% - 12.5rem);
+    top: calc(50% - 14.5rem); */
+    background-color: #fff;
+    padding: 1.5rem;
+}
+
+.headerModal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.wrap::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000;
+    opacity: 0.6;
+}
+

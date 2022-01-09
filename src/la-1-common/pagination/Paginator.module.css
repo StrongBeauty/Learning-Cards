@@ -1,0 +1,18 @@
+.pages {
+  margin: 20px 0;
+}
+
+.page,
+.currentPage {
+  margin: 10px 12px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.currentPage {
+  border-radius: 2px;
+  border: 3px solid #21268F;
+  background: #21268F;
+  color: #fff;
+  font-weight: 700;
+}

@@ -1,0 +1,69 @@
+@import url('../src/la-0-assets/fonts.css');
+
+* {
+  box-sizing: border-box;
+}
+
+:root,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+:root {
+
+  /* 16 px  for 1440px*/
+  font-size: calc(0.8rem + 0.23vw);
+}
+
+/* @media (min-width:1441px) {
+  :root {
+    font-size: 1em;
+  }
+} */
+
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'SFUIDisplayNormal', sans-serif;
+  /* font-size: inherit; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* iframe {
+  display: none;
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+button,
+input,
+label,
+table {
+  cursor: pointer;
+}
+
+button {
+  transition: all .2s linear;
+}
+
+
+a {
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition: all .2s linear;
+}

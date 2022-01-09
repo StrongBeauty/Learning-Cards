@@ -1,0 +1,49 @@
+.tableHead {
+    background-color: #87CEEB;
+    position: sticky;
+    top: 0;
+}
+
+
+.tabLeine {
+    transition: all .5s;
+    width: 100%;
+}
+
+.tabLeine:hover {
+    background-color: rgba(33, 38, 143, .3)
+}
+
+.tableItem {
+    font-family: 'SFUIDisplayBold', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    word-wrap: break-word;
+    /* for adaptive*/
+}
+
+.tableItem:nth-child(1) {
+    min-width: 21%;
+}
+
+.tableItem:nth-child(2) {
+    width: 10%;
+}
+
+.tableItem:nth-child(3) {
+    min-width: 19%;
+    padding: 0;
+}
+
+.tableItem:nth-child(4) {
+    width: 25%;
+}
+
+.tableItem:nth-child(5) {
+    width: 25%;
+}
+
+
+

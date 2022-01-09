@@ -1,0 +1,78 @@
+.globalTitleBox {
+    margin-bottom: 2.2rem;
+}
+
+.cardImgBlock {
+    margin: 0 auto 1.2rem;
+    max-width: 6.75rem;
+    height: 6.75rem;
+    border-radius: 50%;
+    background-color: #D7D8EF;
+    position: relative;
+}
+
+.imgCard {
+    position: absolute;
+    bottom: calc(50% - 31px);
+    left: calc(50% - 32.5px);
+    animation: rotate 2s ease-in infinite;
+    opacity: 1;
+}
+
+.cardText{
+    line-height: 1.5;
+    color: #2D2E46;
+    opacity: 0.7;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(90deg);
+
+    }
+
+    20% {
+        transform: rotateY(60deg);
+
+    }
+
+    40% {
+        transform: rotateY(30deg);
+
+    }
+
+    50% {
+        transform: rotateY(0deg);
+
+    }
+
+
+    60% {
+        transform: rotateY(-30deg);
+
+    }
+
+    80% {
+        transform: rotateY(-60deg);
+
+    }
+
+
+
+    100% {
+        transform: rotateY(-90deg);
+    }
+}
+
+.listTitleBox {
+    margin-bottom: 1.3rem;
+}
+
+.cardText {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #2D2E46;
+    opacity: 0.5;
+    margin-bottom: 7rem;
+
+}

@@ -1,0 +1,52 @@
+
+
+.modalTitle{
+    font-family: Poppins, sans-serif;
+    font-size: 1.13rem;
+    line-height: 1.2;
+    color: #2D2E46;
+}
+
+.inputBox {
+    text-align: start;
+}
+
+.buttonsBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+
+.buttonCloseModal {
+    width: 1.7rem;
+    height: 1.7rem;
+    position: relative;
+    border: transparent;
+}
+
+.buttonCloseModal:hover {
+    border: 1px solid #2D2E46;
+}
+
+.buttonCloseModal::before,
+.buttonCloseModal::after {
+    position: absolute;
+    content: '';
+    height: 1.2rem;
+    width: 1px;
+    top: calc(50% - .6rem);
+    left: 50%;
+    background-color: #2D2E46;
+}
+
+.buttonCloseModal::before {
+    transform: rotate(45deg);
+}
+
+.buttonCloseModal::after {
+    transform: rotate(-45deg);
+}
+
+.buttonContainer {
+    max-width: 8rem;
+}

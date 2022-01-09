@@ -1,0 +1,33 @@
+.globalTitleBox {
+    margin-bottom: 1.23rem;
+}
+
+.listTitleBox {
+    margin-bottom: 1.73rem;
+}
+
+.formWrap {
+    text-align: start;
+}
+
+.buttonsContainer {
+    padding-top: 3.75rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.2rem;
+
+}
+
+.buttonContainer {
+    width: 11.7rem;
+    margin-left: 0.5rem;
+
+}
+
+.error{
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+

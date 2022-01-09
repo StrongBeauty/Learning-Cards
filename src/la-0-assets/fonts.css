@@ -1,0 +1,56 @@
+/* font-weight:100 / Thin
+font-weight:200 / Extra
+font-weight:300 / Light
+font-weight:400 / Normal/ Regular
+font-weight:500 / Medium
+font-weight:600 / Semi Bold
+font-weight:700 / Bold
+font-weight:800 / Extra Bold
+font-weight:900 / Black */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500;600&display=swap');
+
+@font-face {
+    font-family: 'SFUIDisplayNormal';
+    src: url('../../src/la-0-assets/fonts/SFUIDisplay-Regular.ttf');
+    src: local('SFUIDisplayNormal'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Regular.ttf') format('truetype'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Regular.woff') format('woff'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFUIDisplayMedium';
+    src: url('../../src/la-0-assets/fonts/SFUIDisplay-Medium.ttf');
+    src: local('SFUIDisplayMedium'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Medium.ttf') format('truetype'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Medium.woff') format('woff'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFUIDisplaySemibold';
+    src: url('../../src/la-0-assets/fonts/SFUIDisplay-Semibold.ttf');
+    src: local('SFUIDisplayBold'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Semibold.ttf') format('truetype'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Semibold.woff') format('woff'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SFUIDisplayBold';
+    src: url('../../src/la-0-assets/fonts/SFUIDisplay-Bold.ttf');
+    src: local('SFUIDisplayBold'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Bold.ttf') format('truetype'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Bold.woff') format('woff'),
+    url('../../src/la-0-assets/fonts/SFUIDisplay-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+

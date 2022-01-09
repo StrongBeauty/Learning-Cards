@@ -1,0 +1,38 @@
+.buttonsBlock {
+    display: flex;
+}
+
+@media (max-width:900px){
+    .buttonsBlock{
+        width: 70%;
+    }
+}
+
+@media (max-width:600px){
+    .buttonsBlock{
+        width: 80%;
+    }
+}
+
+
+.button {
+    flex: 1;
+    font-size: .9rem;
+    line-height: 2.5;
+    color: #2D2E46;
+    border: transparent;
+}
+
+.button:hover {
+    color: #fff;
+    background-color: #2F4F4F;
+}
+
+.active {
+    background-color: #2F4F4F;
+    flex: 1;
+    font-size: .9rem;
+    line-height: 2.5;
+      color: #fff;
+    border: transparent;
+}

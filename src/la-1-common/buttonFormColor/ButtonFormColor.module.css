@@ -1,0 +1,80 @@
+.buttonSubmitColor {
+    display: inline-block;
+    background: #2F4F4F;
+    box-shadow: 0px 4px 18px rgba(33, 38, 143, 0.35), inset 0px 1px 0px rgba(255, 255, 255, 0.3);
+    border: transparent;
+    border-radius: 2rem;
+    color: #ECECF9;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    font-family: 'SFUIDisplayMedium', sans-serif;
+    font-size: 1rem;
+    line-height: 2.1;
+    min-width: 8rem;
+    width: 100%;
+}
+
+.buttonSubmitColor:hover {
+    opacity: .7;
+}
+
+
+.buttonSubmitColor:focus,
+.buttonSubmitColor:active {
+    box-shadow: 0 0 0 3px #000;
+    opacity: .7;
+}
+
+.buttonCancel {
+    display: inline-block;
+    width: 7.75rem;
+    background: #D7D8EF;
+    border: transparent;
+    border-radius: 2rem;
+    color: #2F4F4F;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+    font-family: 'SFUIDisplayMedium', sans-serif;
+    font-size: 1rem;
+    line-height: 2.1;
+}
+
+.buttonCancel:hover{
+    background-color: #a5a7eb;
+}
+
+
+.buttonCancel:active {
+    box-shadow: 0 0 0 3px #2F4F4F;
+}
+
+.tableButton {
+    display: inline-block;
+    width: 100%;
+    font-family: 'SFUIDisplaySemibold', sans-serif;
+    text-align: center;
+    font-size: .8rem;
+    line-height: 2;
+    color: #21268F;
+    border-radius: .3em;
+    border: transparent;
+    transition: all .5s;
+}
+
+.tableButton:hover,
+.tableDeleteButton:hover{
+    box-shadow: 0 0 10px #19077e;
+}
+
+.tableDeleteButton {
+    display: inline-block;
+    width: 100%;
+    font-family: 'SFUIDisplaySemibold', sans-serif;
+    text-align: center;
+    font-size: .8rem;
+    line-height: 2;
+    background-color: #F1453D;
+    color: #fff;
+    border-radius: .3em;
+    border: transparent;
+}
+
+

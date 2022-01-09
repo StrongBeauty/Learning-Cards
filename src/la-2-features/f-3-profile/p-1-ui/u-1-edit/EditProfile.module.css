@@ -1,0 +1,30 @@
+.containerWrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listTitleBox{
+    margin-bottom: 1.5rem;
+}
+
+.avatarBox{
+    margin-bottom: 2rem;
+}
+
+.inputBox{
+    text-align: start;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.buttonsBox{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+
+.buttonWrap{
+  width: 8rem;  
+}

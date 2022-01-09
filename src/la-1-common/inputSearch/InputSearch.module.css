@@ -1,0 +1,17 @@
+.input {
+    width: 100%;
+    padding-left: 3rem;
+    padding-right: .5rem;
+    background-color: #ECECF9;
+    border: 1px solid #635D80;
+    border-radius: 0.12rem;
+    outline-color: #2F4F4F;
+    background: url('../../../src/la-0-assets/images/search.png') no-repeat 1rem 50%;
+}
+
+.input[placeholder] {
+    font-size: 0.9rem;
+    line-height: 2.25;
+    color: #2D2E46;
+    opacity: 0.5;
+}

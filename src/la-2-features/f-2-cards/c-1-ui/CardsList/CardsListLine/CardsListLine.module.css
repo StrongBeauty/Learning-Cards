@@ -1,0 +1,66 @@
+.tableItem {
+    font-family: 'SFUIDisplayBold', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    word-wrap: break-word;
+    /* for adaptive*/
+}
+
+.tabLeine {
+    transition: all .5s;
+    width: 100%;
+}
+
+.tableLeine:nth-child(even) {
+    background-color: rgba(33, 38, 143, .1);
+}
+
+.tableLeine:hover {
+    background-color: rgba(33, 38, 143, .3)
+}
+
+.tableItem:nth-child(1) {
+    min-width: 26%;
+}
+
+.tableItem:nth-child(2) {
+    min-width: 26%;
+}
+
+.tableItem:nth-child(3) {
+    width: 18%;
+    padding: 0;
+    padding-left: 0.5rem;
+}
+
+.tableItem:nth-child(4) {
+    width: 14%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.tableItem:nth-child(5) {
+    width: 16%;
+}
+
+.tableButtonsblock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonContainer {
+    min-height: 1.5rem;
+}
+
+.buttonContainer:nth-of-type(1) {
+    width: 3.4rem;
+    margin-right: 0.4rem;
+}
+
+
+.buttonContainer:nth-of-type(2) {
+    width: 3rem;
+    margin-right: 0.4rem;
+}

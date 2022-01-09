@@ -1,0 +1,19 @@
+.titleBox {
+    margin-bottom: 1.7rem;
+}
+
+.inputFileBox {
+    margin-top: -0.8rem;
+    margin-bottom: 1.3rem;
+}
+
+.buttonsBox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    padding-top: 3.8rem;
+}
+
+
+

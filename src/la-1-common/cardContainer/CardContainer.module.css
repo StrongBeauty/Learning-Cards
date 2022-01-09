@@ -1,0 +1,40 @@
+.container {
+    padding-top: 3.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    perspective: 30rem;
+}
+
+@media (max-width: 350px){
+    .container{
+        padding-top: 0.4rem;
+    }
+}
+
+.boxForm {
+    margin: auto;
+    padding: 1.56rem 2.06rem 1.63rem 2.06rem;
+    background-color: #F9F9FE;
+    border-radius: .5rem;
+    max-width: 25.8rem;
+    animation: rotate .6s ease-in forwards;
+    opacity: 0;
+    box-shadow: 0 0 10px #9890c7;
+}
+
+@keyframes rotate {
+    0% {
+        transform: translateZ(-800px) rotateY(90deg);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translateZ(-160px) rotateY(87deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateZ(0) rotateY(0);
+        opacity: 1;
+    }
+}

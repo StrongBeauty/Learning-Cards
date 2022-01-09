@@ -1,0 +1,50 @@
+.imgInner {
+    perspective: 20rem;
+    
+}
+
+.imgWrap {
+    height: 9rem;
+    width: 9rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 15px #9890c7;
+    opacity: 0;
+    animation: userAnime .5s ease-in .5s forwards;
+}
+
+.userImg {
+    display: inline-block;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 101%;
+    height: 100%;
+    }
+
+@keyframes userAnime {
+    0% {
+        transform: translateZ(-30rem);
+        opacity: 0;
+    }
+
+    25% {
+        transform: translateZ(-25rem);
+        opacity: .1;
+    }
+
+    50% {
+        transform: translateZ(-20rem);
+        opacity: .4;
+    }
+
+    75% {
+        transform: translateZ(-10rem);
+        opacity: .6;
+    }
+
+    100% {
+        transform: translateZ(0);
+        opacity: 1;
+    }
+}

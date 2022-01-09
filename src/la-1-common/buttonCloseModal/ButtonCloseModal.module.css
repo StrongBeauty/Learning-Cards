@@ -1,0 +1,31 @@
+.buttonCloseModal {
+    display: inline-block;
+    width: 1.7rem;
+    height: 1.7rem;
+    position: relative;
+    border: transparent;
+    background-color: transparent;
+}
+
+.buttonCloseModal:hover {
+    border: 1px solid #2D2E46;
+}
+
+.buttonCloseModal::before,
+.buttonCloseModal::after {
+    position: absolute;
+    content: '';
+    height: 1.2rem;
+    width: 1px;
+    top: calc(50% - .6rem);
+    left: 50%;
+    background-color: #2D2E46;
+}
+
+.buttonCloseModal::before {
+    transform: rotate(45deg);
+}
+
+.buttonCloseModal::after {
+    transform: rotate(-45deg);
+}

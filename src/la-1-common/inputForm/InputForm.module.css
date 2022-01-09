@@ -1,0 +1,51 @@
+.formItem{
+text-align: start;
+}
+.input {
+    width: 100%;
+    border: transparent;
+    padding-bottom: 0.25rem;
+    border-bottom: 1.6px solid rgba(36, 37, 74, .2);
+    outline-color: #2F4F4F;
+    padding-right: 4rem;
+    padding-left: .4rem;
+}
+
+/* !styles with invalid value  */
+.input.invalid:invalid {
+    border: 1px solid rgb(230, 20, 20);
+}
+
+.inputText {
+    font-size: 0.81rem;
+    line-height: 1.54;
+    color: #24254A;
+    opacity: 0.5;
+    padding-left: .4rem;
+}
+
+.input[placeholder] {
+    line-height: 2;
+    color: #2D2E46;
+}
+
+.inputBox {
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.passwordControl {
+    display: inline;
+    border: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 1rem;
+    background: url('../../../src/la-0-assets/images/eyeView.svg') no-repeat center/80%;
+    position: absolute;
+    top: 3px;
+    right: 1em;
+}
+
+.view {
+    background: url('../../../src/la-0-assets/images/eyeNoView.svg') no-repeat center/80%;
+}

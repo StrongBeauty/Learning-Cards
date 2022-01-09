@@ -1,0 +1,69 @@
+.globalTitleBox {
+    margin-bottom: 2rem;
+}
+
+.listTitleBox {
+    margin-bottom: 2.38rem;
+}
+
+.formWrap {
+    text-align: start;
+}
+
+.buttonContainer {
+    max-width: 16.6rem;
+    margin: 0 auto 2rem;
+}
+
+.linkWrap {
+    padding-top: 0.88rem;
+}
+
+.error {
+    color: red;
+    width: 100%;
+    text-align: center;
+}
+
+
+.passForgot {
+    display: block;
+    font-size: 0.88rem;
+    line-height: 2.86;
+    text-align: center;
+    color: #2D2E46;
+    text-decoration: none;
+    max-width: 8.7rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    border-radius: 2rem;
+}
+
+.checkboxWrap {
+    padding-left: .4rem;
+}
+
+.formText {
+    text-align: center;
+    font-family: 'SFUIDisplaySemibold', sans-serif;
+    font-size: 0.88rem;
+    line-height: 1.71;
+    color: rgba(45, 46, 70, .5);
+    margin-bottom: 0.4rem;
+}
+
+.linkCardBottom {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'SFUIDisplaySemibold', sans-serif;
+    font-size: 1rem;
+    line-height: 2;
+    color: #2F4F4F;
+    border-radius: 2rem;
+}
+
+.passForgot:hover,
+.linkCardBottom:hover {
+    border: 1px solid;
+}

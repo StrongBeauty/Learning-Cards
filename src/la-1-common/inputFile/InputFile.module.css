@@ -1,0 +1,16 @@
+.inputLabel {
+    display: block;
+    text-align: start;
+    font-size: .8rem;
+    line-height: 1.2;
+    color: #21268F;
+}
+
+.inputFile {
+    width: 0.1rem;
+    height: 0.1rem;
+    opacity: 0;
+    overflow: hidden;
+    z-index: -1;
+}
+

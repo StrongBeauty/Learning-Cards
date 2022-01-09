@@ -1,0 +1,32 @@
+.formCheckbox {
+    display: flex;
+    align-items: center;
+    max-width: 60%;
+
+}
+
+.checkbox {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    clip: rect(0 0 0 0);
+}
+
+.checkStyle {
+    width: 1rem;
+    height: 1rem;
+    border: 2px solid #2F4F4F;
+    margin-right: 1rem;
+}
+
+.checkbox:checked+.checkStyle {
+    display: inline-block;
+    background: url('../../../src/la-0-assets/images/checkbox/checkOnSquare.svg') no-repeat center/88%;
+}
+
+.inputText {
+    line-height: 2;
+    color: #2D2E46;
+
+}
